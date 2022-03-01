@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    height: 2000px;
+    width: 1000px;
+}
+.header{
+    width: 1000px;
+    height: 300px;
+    background: url(./img/banner.jpg) no-repeat ;
+}
+.main{
+    width: 1000px;
+    height: 2750px;
+    margin-top: 50px;
+}
+.main .ha3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main .ha3 .ha img{
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.main img:hover{
+    background-color: aqua;
+}
+.footer{
+    width: 1000px;
+    height: 300px;
+    background: url(./img/banner.jpg);
+}
